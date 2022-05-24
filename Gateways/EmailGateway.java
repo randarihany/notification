@@ -1,11 +1,11 @@
-package Gateways;
+package gateways;
 
-import Messages.DailyNewsEmailMessage;
-import Messages.GradesAnnouncementEmailMessage;
-import Messages.TaskAddedEmailMessage;
+import messages.DailyNewsEmailMessage;
+import messages.GradesAnnouncementEmailMessage;
+import messages.TaskAddedEmailMessage;
 
-public class EmailGateway {
-	
+public class EmailGateway extends GateWay {
+	@Override
 	public void sendMessage(Object message, String user) {
 		String[] placeHolders = new String[] {}; // set some place holders here 
 		
