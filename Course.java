@@ -1,10 +1,10 @@
+import java.util.ArrayList;
+
 import Gateways.EmailGateway;
 import Messages.TaskAddedEmailMessage;
 import Users.Professor;
 import Users.Student;
 import Users.TA;
-
-import java.util.ArrayList;
 
 public class Course {
 	
