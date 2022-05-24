@@ -1,4 +1,4 @@
-package users;
+package Users;
 
 public interface Observers {
 

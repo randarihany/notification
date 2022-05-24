@@ -1,8 +1,8 @@
-package users;
+package Users;
 
 public class Student implements Observers {
 	String name;
-	int id;
+	int Id;
 	String email;
 	String phoneNumber;
 	
@@ -11,7 +11,7 @@ public class Student implements Observers {
 	public Student(String name, int id, String email, String phoneNumber) {
 		super();
 		this.name = name;
-		this.id = id;
+		Id = id;
 		this.email = email;
 		this.phoneNumber = phoneNumber;
 	}
@@ -45,15 +45,16 @@ public class Student implements Observers {
 	}
 
 	public int getId() {
-		return id;
+		return Id;
 	}
 
 	public void setId(int id) {
-		this.id = id;
+		Id = id;
 	}
 
 	@Override
 	public void update(String message) {
 		// do some stuff
 	}
+	
 }
