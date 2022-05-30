@@ -1,10 +1,8 @@
-package messages;
+package Messages;
 
-public class GradesAnnouncementEmailMessage implements Messages{
+public class GradesAnnouncementEmailMessage {
 
-
-	@Override
-	public String prepareMessage(String [] placeHolders) {
+	public String prepareMessage(String placeHolders[]) {
 		// code to replace place holders of this type
 		return "";
 	}

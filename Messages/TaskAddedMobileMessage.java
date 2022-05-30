@@ -1,17 +1,14 @@
-package messages;
+package Messages;
 
-public class TaskAddedMobileMessage implements Messages{
+public class TaskAddedMobileMessage {
 
-
-	@Override
-	public String prepareMessage(String [] placeHolders) {
+	public String prepareMessage(String placeHolders[]) {
 		// code to replace place holders of this type
 		return "";
 	}
 	
 	
 	public void addTeamDescription() {
-		// logic to be added
 		
 	}
 }
