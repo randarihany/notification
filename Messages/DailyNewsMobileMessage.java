@@ -1,9 +1,8 @@
-package messages;
+package Messages;
 
-public class DailyNewsMobileMessage implements Messages{
-
-	@Override
-	public String prepareMessage(String [] placeHolders) {
+public class DailyNewsMobileMessage {
+	
+	public String prepareMessage(String placeHolders[]) {
 		// code to replace place holders of this type
 		return "";
 	}

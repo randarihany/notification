@@ -1,11 +1,11 @@
-package gateways;
+package Gateways;
 
-import messages.DailyNewsMobileMessage;
-import messages.GradesAnnouncementMobileMessage;
-import messages.TaskAddedMobileMessage;
+import Messages.DailyNewsMobileMessage;
+import Messages.GradesAnnouncementMobileMessage;
+import Messages.TaskAddedMobileMessage;
 
-public class SMSGateway extends GateWay{
-	@Override
+public class SMSGateway {
+	
 	public void sendMessage(Object message, String user) {
 		String[] placeHolders = new String[] {}; // set some place holders here 
 		

@@ -1,7 +1,8 @@
 package Users;
 
 import java.sql.Date;
-public class Professor implements Observers{
+
+public class Professor {
 	String name;
 	String department;
 	Date hirringDate;
@@ -66,9 +67,9 @@ public class Professor implements Observers{
 	public void setPhDTopic(String phDTopic) {
 		PhDTopic = phDTopic;
 	}
-
-	@Override
-	public void update(String message) {
+	
+	
+	public void notifyProfessor(String message) {
 		// do some stuff
 		
 	}

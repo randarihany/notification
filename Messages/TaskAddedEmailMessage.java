@@ -1,10 +1,8 @@
-package messages;
+package Messages;
 
-public class TaskAddedEmailMessage implements Messages {
+public class TaskAddedEmailMessage {
 
-
-	@Override
-	public String prepareMessage(String [] placeHolders) {
+	public String prepareMessage(String placeHolders[]) {
 		// code to replace place holders of this type
 		
 		return "";
@@ -12,7 +10,6 @@ public class TaskAddedEmailMessage implements Messages {
 	
 	
 	public void addTeamDescription() {
-		// logic to be added
 		
 	}
 }

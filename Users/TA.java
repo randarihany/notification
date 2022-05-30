@@ -1,6 +1,6 @@
 package Users;
 
-public class TA implements Observers{
+public class TA {
 	String name;
 	String department;
 	String email;
@@ -51,8 +51,8 @@ public class TA implements Observers{
 	public void setDepartment(String department) {
 		this.department = department;
 	}
-	@Override
-	public void update(String message) {
+	
+	public void notifyTA(String message) {
 		// do some stuff
 		
 	}

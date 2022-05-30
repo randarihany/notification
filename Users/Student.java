@@ -1,6 +1,6 @@
 package Users;
 
-public class Student implements Observers {
+public class Student {
 	String name;
 	int Id;
 	String email;
@@ -51,9 +51,9 @@ public class Student implements Observers {
 	public void setId(int id) {
 		Id = id;
 	}
-
-	@Override
-	public void update(String message) {
+	
+	
+	public void notifyStudent(String message) {
 		// do some stuff
 	}
 	
